@@ -12,11 +12,11 @@ import java.util.*;
  * 汽车收入
  */
 public class CarIncomeControl {
-    public static void main(String[] args) throws Exception {
-        String plat = "滴滴";//阳光  嘀嗒 首汽  滴滴
-        String date = "2024-07-19";
-//        updateMinutes(date);//更新用时分钟
-        saveIncomeByDiDi();
+    public static void main(String[] args) {
+//        String plat = "滴滴";//阳光  嘀嗒 首汽  滴滴
+        String date = "2024-07-24";
+        updateMinutes(date);//更新用时分钟
+//        saveIncomeByDiDi();
 //        saveIncomeByYangGuang("阳光");
 //        saveIncomeByShouQi("首汽");
 //        System.out.println(savePatch( date,plat,null,null,count));//阳光  嘀嗒 首汽
@@ -50,7 +50,7 @@ public class CarIncomeControl {
     /**
      * 保存-根据照片字符串
      *
-     * @param date
+     * @param date 日期
      */
     public static void saveByJianDaoChenKeWuPin(String date) {
 //        date = "2023-10-07";
@@ -454,7 +454,7 @@ public class CarIncomeControl {
     /**
      * 保存订单-根据我的行程-阳光
      *
-     * @param plat
+     * @param plat 111
      */
     public static void saveIncomeByYangGuang(String plat) {
         String date = "2024-12-31";
@@ -467,122 +467,178 @@ public class CarIncomeControl {
                     "";
         }
         {
-            oriStr = "" +
-                    "" +
-                    "13:29\n" +
-                    "<\n" +
-                    "默认日期\n" +
-                    "今天\n" +
-                    "2024-07-18\n" +
-                    "即时\n" +
-                    "21:39\n" +
-                    "瀛海地铁站B1口-推荐点\n" +
-                    "北京城建·海梓府-东1门\n" +
-                    "2476HRXMVCWX4F1\n" +
-                    "我的行程\n" +
-                    "改派记录\n" +
-                    "已完成▼\n" +
-                    "已完成\n" +
-                    "复制\n" +
-                    "￥13.72\n" +
+            oriStr = "2024-07-25\n" +
                     "即时\n" +
                     "顺\n" +
-                    "14:24\n" +
-                    "博兴八路中海京叁号院新售楼处\n" +
-                    "乐刻健身(瀛海环宇坊店)\n" +
-                    "2476HNWA7JWX4F4\n" +
+                    "23:25\n" +
+                    "华贸购物中心西北门\n" +
+                    "德茂地铁站A2西北口\n" +
+                    "2476JZV64LWX4G4\n" +
                     "已完成\n" +
                     "复制\n" +
-                    "￥14.74\n" +
+                    "￥50.43\n" +
                     "客服助手\n" +
                     "即时\n" +
-                    "14:12\n" +
-                    "地铁荣昌东街站-公交站\n" +
-                    "大兴区鹿海园5里南（泰河三街南)\n" +
-                    "2476HNTWYNWX4F7\n" +
-                    "复制\n" +
+                    "顺\n" +
+                    "10:04\n" +
+                    "顺八条3号院-南门\n" +
+                    "万源南里\n" +
+                    "2476JRXAP5WX4F9\n" +
                     "已完成\n" +
-                    "￥12.99\n" +
-                    "13:28\n" +
+                    "复制\n" +
+                    "￥16.25\n" +
+                    "三\n" +
+                    "14:51\n" +
                     "<\n" +
                     "默认日期\n" +
-                    "2024-07-18\n" +
+                    "2024-07-25\n" +
+                    "2024-07-24\n" +
+                    "即时\n" +
+                    "10:24\n" +
+                    "瀛坤路（公交站)\n" +
+                    "瀛海地铁站-C口（西南口）\n" +
+                    "2476JGV615WX4F1\n" +
+                    "复制\n" +
                     "我的行程\n" +
                     "改派记录\n" +
                     "已完成▼\n" +
+                    "已完成\n" +
+                    "￥10.30\n" +
                     "即时\n" +
                     "顺\n" +
-                    "10:56\n" +
-                    "星巴克咖啡(北京瀛海环宇坊店)..\n" +
+                    "10:03\n" +
+                    "大兴区硕果家酒店南（金时大街东)\n" +
+                    "北京玫瑰星月精选酒店（大兴国际...\n" +
+                    "2476JGS7QOWX4F1\n" +
+                    "复制\n" +
+                    "已完成\n" +
+                    "￥13.77\n" +
+                    "客服助手\n" +
+                    "即时\n" +
+                    "09:43\n" +
+                    "瀛海地铁站A口附近-上车点\n" +
+                    "北京市大兴区金服大街\n" +
+                    "2476JGKG1UWX4F1\n" +
+                    "已完成\n" +
+                    "复制\n" +
+                    "￥16.70\n" +
+                    "<\n" +
+                    "我的行程\n" +
+                    "14:51\n" +
+                    "<\n" +
+                    "默认日期\n" +
+                    "2024-07-24\n" +
+                    "2024-07-23\n" +
+                    "即时\n" +
+                    "12:11\n" +
+                    "太平金融中心\n" +
+                    "全季酒店（北京宣武门店)\n" +
+                    "2476J7NTA9WX4FB\n" +
+                    "复制\n" +
+                    "改派记录\n" +
+                    "已完成▼\n" +
+                    "已完成\n" +
+                    "￥10.30\n" +
+                    "即时\n" +
+                    "11:44\n" +
+                    "同仁园-东门\n" +
+                    "菜市口\n" +
+                    "2476J7CDLRWX4F9\n" +
+                    "已完成\n" +
+                    "复制\n" +
+                    "￥19.16\n" +
+                    "客服助手)\n" +
+                    "即时\n" +
+                    "10:59\n" +
+                    "P1停车楼1M夹层04-06号上车点\n" +
+                    "玖威士忌·雪茄BAR\n" +
+                    "2476J723CKWX4BC\n" +
+                    "已完成\n" +
+                    "复制\n" +
+                    "￥85.32\n" +
+                    "三\n" +
+                    "<\n" +
+                    "我的行程\n" +
+                    "14:51\n" +
+                    "<\n" +
+                    "默认日期\n" +
+                    "2024-07-22\n" +
+                    "即时\n" +
+                    "12:04\n" +
+                    "P1停车楼1M夹层04-06号上车点\n" +
+                    "金晟商务酒店\n" +
+                    "2476IWZHFSWX4BC\n" +
+                    "改派记录\n" +
+                    "已完成▼\n" +
+                    "已完成\n" +
+                    "复制\n" +
+                    "￥98.70\n" +
+                    "即时\n" +
+                    "顺\n" +
+                    "10:10\n" +
+                    "石榴园南里小区（东门）\n" +
                     "北京大兴国际机场\n" +
-                    "2476HLW2KUWX4F1\n" +
+                    "2476IW6P68WX4F9\n" +
                     "已完成\n" +
                     "复制\n" +
-                    "￥69.16\n" +
-                    "即时\n" +
-                    "09:33\n" +
-                    "北京市丰台区榴乡路辅路\n" +
-                    "蜀海（北京）食品有限公司\n" +
-                    "2476HL73T8WX4F9\n" +
-                    "复制\n" +
-                    "已完成\n" +
-                    "￥36.54\n" +
+                    "￥77.24\n" +
                     "客服助手\n" +
+                    "4-07-21\n" +
                     "即时\n" +
-                    "顺\n" +
-                    "00:29\n" +
-                    "北京万方苑国际酒店-西门\n" +
-                    "小肠陈卤煮\n" +
-                    "2476HlTVYTWX4F8\n" +
+                    "19:58\n" +
+                    "木秀护肤造型（海棠店）\n" +
+                    "盛腾公寓\n" +
+                    "2476lQ10BHWX4FU\n" +
                     "已完成\n" +
                     "复制\n" +
-                    "￥30.01\n" +
-                    "我的行程\n" +
-                    "13:27\n" +
+                    "￥13.98\n" +
+                    "三\n" +
+                    "<\n" +
+                    "14:51\n" +
                     "<\n" +
                     "默认日期\n" +
-                    "2024-07-17\n" +
-                    "即时\n" +
-                    "14:20\n" +
-                    "瀛海路东口（临时站)-公交站路南\n" +
-                    "润棠瀛海-北1门\n" +
-                    "2476HD07YTWX4F1\n" +
+                    "2024-07-21\n" +
+                    "我的行程\n" +
                     "改派记录\n" +
                     "已完成▼\n" +
-                    "已完成\n" +
-                    "复制\n" +
-                    "￥11.50\n" +
                     "即时\n" +
-                    "09:05\n" +
-                    "马驹桥派出所-东北门\n" +
-                    "中国农业银行（北京马驹桥支行)\n" +
-                    "2476H9ZNINWX4FH\n" +
+                    "09:21\n" +
+                    "瀛海地铁站C西南口\n" +
+                    "大兴区春雪四季公寓东北100米(...\n" +
+                    "2476IK01GFWX4F1\n" +
                     "复制\n" +
                     "已完成\n" +
-                    "￥12.24\n" +
+                    "￥13.96\n" +
+                    "2024-07-20\n" +
+                    "即时\n" +
+                    "23:45\n" +
+                    "西单大悦城地下停车场-出口\n" +
+                    "御槐园\n" +
+                    "2476IHTUGVWX4G0\n" +
+                    "已完成\n" +
+                    "复制\n" +
+                    "￥41.01\n" +
                     "客服助手\n" +
-                    "2024-07-16\n" +
                     "即时\n" +
                     "顺\n" +
-                    "00:06\n" +
-                    "新食代-西门\n" +
-                    "益海嘉里（北京）粮油食品工业有…..\n" +
-                    "2476GVRJX5WX49Y\n" +
+                    "10:14\n" +
+                    "南海家园六里-南门东侧\n" +
+                    "北京农商银行（瀛海支行)\n" +
+                    "2476192D4UWX4F4\n" +
                     "复制\n" +
                     "已完成\n" +
-                    "￥16.21\n" +
+                    "三\n" +
+                    "￥13.56\n" +
                     "<\n";
         }
 
 //        System.out.println(oriStr);
         String[] oriStrArr = oriStr.split("\n");
         List<CarIncome> entityList = new ArrayList<>();
-        Set<Integer> ids = new HashSet<>();
         CarIncome entity = null;
         boolean isStartAddrOk = false;
         boolean isSetAddrEnd = false;
         boolean isOkTime = false;//时间是否处理
-        boolean isOkPay = false;//是否支付
         boolean isOrderBegin = false;//订单是否开始，订单开始标志：即时
         int orderNum = 0;
         for (String row : oriStrArr) {
@@ -703,7 +759,7 @@ public class CarIncomeControl {
     /**
      * 保存订单-根据我的行程-首汽
      *
-     * @param plat
+     * @param plat 平台
      */
     public static void saveIncomeByShouQi(String plat) {
         String year = "2024";
