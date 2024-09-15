@@ -6,7 +6,7 @@ import db.CarIncome;
 import java.util.List;
 
 /**
- * CarIncomeService简介
+ * 网约车收入服务(持久化)
  *
  * @author Administrator
  * @date 2023-05-28 00:49
